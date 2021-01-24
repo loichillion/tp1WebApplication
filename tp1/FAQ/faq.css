@@ -1,0 +1,57 @@
+li{
+    list-style-type: none;  
+  margin: 0 2vw;
+  /* our font-size will be 3% of the height of the viewport */
+  font-size: 3vh;
+  }
+
+  a{
+    text-decoration: none;
+  
+  /*below I changed the color*/
+  color:white;
+  }
+  a:hover{
+    background-color: rgb(187, 187, 187);
+  }
+
+  nav{
+    width: 100%;
+    margin-bottom: auto;
+    border-radius: 15px;
+    background-color: black;
+  }
+
+  @media screen and (max-width: 600px) {
+    nav.responsive {position: relative;}
+    nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+    
+  ul{
+    margin: 0;
+  padding: 0;
+  
+
+  display: flex;
+  flex: 1;
+  }
+  
+  body{
+    margin: 0;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  }
+
+.contenaire{
+    text-align: center;
+    border-radius: 25px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    margin: 2%;
+  }
+
+  img{
+      width: 100%;
+  }
